@@ -1,7 +1,5 @@
 # SWE-quarto-thesis
 
-
-## ABOUT
 This is a small working example of quarto project to make a PhD thesis which broadly corresponds to the regulations regarding layout of a thesis submitted within the University of Edinburgh. It is **not official**, but conforms as best as possible to the regulation as detailed at:
 
 [The University of Edinburgh Academic Services](http://www.ed.ac.uk/academic-services/students/thesis-submission)
@@ -9,6 +7,8 @@ This is a small working example of quarto project to make a PhD thesis which bro
 Please use and alter the project to your own liking, but note that the code is made available under the GNU GPL and must be similarly licensed should you wish to release your modified version. 
 
 An example of the compiled template is available [here](https://niximagery.github.io/SWE-quarto-thesis/The-inside-of-a-ping-pong-ball.pdf). The website it makes can be seen [here](https://niximagery.github.io/SWE-quarto-thesis/).
+
+I am grateful to other doctoral researchers who openly share their tools and techniques, including [Cameron Patrick](https://cameronpatrick.com/post/2023/07/quarto-thesis-formatting/) for sharing his approach to using quarto for his own thesis.
 
 
 ## LICENSE
