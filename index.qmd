@@ -1,5 +1,3 @@
-<!-- Set page numbering to i, ii, etc. -->
-\pagenumbering{roman}
 
 # Abstract {-}
 
@@ -11,3 +9,6 @@ This is just placeholder text for the academic abstract until the thesis is almo
 \tableofcontents
 \listoftables
 \listoffigures
+
+\let\mainmatter\mainmatterreal
+\mainmatter

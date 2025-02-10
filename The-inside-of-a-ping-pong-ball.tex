@@ -262,6 +262,8 @@
 of the degree of Doctor of Philosophy \par}
 }
 
+\let\mainmatterreal\mainmatter
+\let\mainmatter\relax
 \renewcommand*\contentsname{Table of contents}
 \setcounter{tocdepth}{2}
 \renewcommand*\listfigurename{List of figures}
@@ -274,8 +276,6 @@ of the degree of Doctor of Philosophy \par}
 \addcontentsline{toc}{chapter}{Abstract}
 
 \markboth{Abstract}{Abstract}
-
-\pagenumbering{roman}
 
 This is just placeholder text for the academic abstract until the thesis
 is almost complete and a proper abstract can be written.
@@ -294,11 +294,12 @@ line in index.qmd.
 \listoftables
 \listoffigures
 
+\let\mainmatter\mainmatterreal
+\mainmatterreal
+
 \bookmarksetup{startatroot}
 
 \chapter{Introduction}\label{introduction}
-
-\pagenumbering{arabic}
 
 ``There there,'' said Piglet. ``I'll bring you tea and honey until you
 do.'' (\citeproc{ref-Milne1926}{Milne and Shepard, 1926})
