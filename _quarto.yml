@@ -1,0 +1,100 @@
+project:
+  type: book
+  output-dir: docs
+  preview:
+    port: 4321
+
+date: today
+date-modified: last-modified
+date-format: "Do MMMM YYYY"  
+bibliography: thesis.bib
+# csl: /path/to/your/style-file.csl
+csl: chicago-author-date-with-ibid.csl
+  
+book:
+  title: "The inside of a ping-pong ball"
+  # output-file: My_thesis.pdf
+  subtitle: "It's shiny and bright"
+  description: |
+    Thesis of a postgraduate research project being conducted at the University of Edinburgh under the supervision of [Professor Kermit T. Frog](https://www.ed.ac.uk/profile/kermit) and [Dr. G. O'Nzo](https://www.ed.ac.uk/profile/gonzo). 
+  author: 
+    name: "Random Student"
+    affiliation: University of Edinburgh
+    # orcid: 0000-0000-0000-0000
+  date: today
+
+  chapters:
+    # -------------------------------------------------------------------
+    # title page, abstract, lay summary, declaration, preface, acknowledgements, 
+    # table of contents, list of tables, list of figures, abbreviations; 
+    # the body of the thesis; references; 
+    # and finally appendices.
+    # -------------------------------------------------------------------
+    - index.qmd # contains the (placeholder) abstract and the _preface.qmd
+    # declaration, dedication, acknowledgements in _front-matter.qmd, to be included from index.qmd
+    # table of contents (and lists of tables and figures) included in index.qmd
+    - 10-introduction.qmd
+    # - 20-conceptual-framework.qmd
+    # - 30-method.qmd
+    # - 40-discussion.qmd
+    # - 50-conclusion.qmd
+    - references.qmd
+  # appendices: 
+  sidebar:
+    contents: auto
+    style: docked
+    collapse-level: 2
+  page-footer: 
+    left: "What a lovely day." 
+
+format:
+  html:
+    theme: 
+    - spacelab
+    fontsize: 12pt
+    page-layout: article
+    fig-cap-location: bottom
+    citation-location: document
+    toc: false
+    toc-depth: 3
+    toc-expand: true
+    toc-title: On this page
+    number-sections: true
+    number-depth: 2
+
+  pdf: 
+    documentclass: scrbook
+    keep-tex: true
+    papersize: a4
+    include-in-header: include-in-header.tex
+    template-partials: 
+      - before-body.tex
+      - toc.tex
+    geometry:
+      - inner=3cm
+      - outer=4cm
+      - top=3cm
+      - bottom=4cm
+      - headsep=22pt
+      - headheight=11pt
+      - footskip=33pt
+      - ignorehead
+      - ignorefoot
+      - heightrounded
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    number-depth: 2
+    lof: true
+    lot: true
+
+    indent: false
+    linestretch: 1.25
+    fontsize: 12pt
+    pdf-engine: xelatex
+    # You can use any font installed on your computer.
+    # mainfont: "Georgia"
+    # sansfont: "Optima"
+    # monofont: "Courier New"
+    # mathfont: "TeX Gyre Termes Math"
+    link-citations: true

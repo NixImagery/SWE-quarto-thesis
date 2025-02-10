@@ -1,0 +1,13 @@
+<!-- Set page numbering to i, ii, etc. -->
+\pagenumbering{roman}
+
+# Abstract {-}
+
+This is just placeholder text for the academic abstract until the thesis is almost complete and a proper abstract can be written.
+
+<!-- {{< include _front-matter.qmd >}} -->
+{{< include _preface.qmd >}}
+
+\tableofcontents
+\listoftables
+\listoffigures

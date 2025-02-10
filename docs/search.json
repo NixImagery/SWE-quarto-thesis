@@ -1,0 +1,32 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The inside of a ping-pong ball",
+    "section": "",
+    "text": "Abstract\nThis is just placeholder text for the academic abstract until the thesis is almost complete and a proper abstract can be written.\n\n\n\nPreface\nThis is a placeholder for a preface. If you don’t need one, delete the line in index.qmd.",
+    "crumbs": [
+      "Abstract"
+    ]
+  },
+  {
+    "objectID": "10-introduction.html",
+    "href": "10-introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "“There there,” said Piglet. “I’ll bring you tea and honey until you do.” (Milne and Shepard, 1926)\n\n\n\n\nMilne, A. A., and E. H. Shepard. 1926. Winnie-the-Pooh. Methuen & Co.; E. P. Dutton.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Milne, A. A., and E. H. Shepard. 1926.\nWinnie-the-Pooh. Methuen & Co.; E. P. Dutton.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
