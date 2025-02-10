@@ -8,7 +8,7 @@ This is a small working example of quarto project to make a PhD thesis which bro
 
 Please use and alter the project to your own liking, but note that the code is made available under the GNU GPL and must be similarly licensed should you wish to release your modified version. 
 
-An example of the compiled template is available [here](https://niximagery.github.io/edengths-quarto/The-inside-of-a-ping-pong-ball.pdf). The website it makes can be seen [here](https://niximagery.github.io/edengths-quarto/).
+An example of the compiled template is available [here](https://niximagery.github.io/SWE-quarto-thesis/The-inside-of-a-ping-pong-ball.pdf). The website it makes can be seen [here](https://niximagery.github.io/SWE-quarto-thesis/).
 
 
 ## LICENSE
