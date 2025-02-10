@@ -16,7 +16,9 @@ $endif$
 \vspace{10ex}
 $for(by-author)$
 {\Large\bfseries $by-author.name.literal$ \par}
+$if(by-author.orcid)$
 {\large ORCID: $by-author.orcid$ \par}
+$endif$
 \vskip 0cm plus 2fill
 {\bfseries\large Doctor of Philosophy \par}
 \vspace{3ex}

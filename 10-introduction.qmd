@@ -2,7 +2,7 @@
 <!-- Reset the page numbering here to start 1, 2, 3, etc. -->
 \pagenumbering{arabic}
 
-# Introduction {-}
+# Introduction
 
 "There there," said Piglet. "I’ll bring you tea and honey until you do.” [@Milne1926]
 
