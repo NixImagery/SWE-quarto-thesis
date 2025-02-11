@@ -15,7 +15,7 @@ I am grateful to other doctoral researchers who openly share their tools and tec
 
 Copyright (C) 2025 Nick Hood <nick.hood@ed.ac.uk>
 
-The Quarto website and PhD thesis template and the Unofficial University of Edinburgh LaTeX2e Thesis Template is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+The Quarto website and PhD thesis code is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 The Quarto website and PhD thesis code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
