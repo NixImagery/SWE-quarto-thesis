@@ -34,10 +34,10 @@ book:
     # declaration, dedication, acknowledgements in _front-matter.qmd, to be included from index.qmd
     # table of contents (and lists of tables and figures) included in index.qmd
     - 10-introduction.qmd
-    # - 20-conceptual-framework.qmd
-    # - 30-method.qmd
-    # - 40-discussion.qmd
-    # - 50-conclusion.qmd
+    - 20-conceptual-framework.qmd
+    - 30-method.qmd
+    - 40-discussion.qmd
+    - 50-conclusion.qmd
     - references.qmd
   # appendices: 
   sidebar:
@@ -87,6 +87,17 @@ format:
     number-depth: 2
     lof: true
     lot: true
+
+    # supervisor: 
+    #   - name: "Professor Kermit T. Frog"
+    #     affiliation: University of Edinburgh
+    #   - name: "Dr. G. O'Nzo"
+    #     affiliation: University of Edinburgh
+    # examiner: 
+    #   - name: "TBD"
+    #     affiliation: TBD
+    #   - name: "TBD"
+    #     affiliation: TBD
 
     indent: false
     linestretch: 1.25

@@ -150,6 +150,9 @@
 
 % \usepackage{tocbibind}
 
+% This is just for the placeholder text
+\usepackage{lipsum}
+
 % left justified
 % \usepackage{ragged2e}
 % \raggedright
@@ -228,11 +231,9 @@
 \makeatother
 \subtitle{It's shiny and bright}
 \author{Random Student}
-\date{10th February 2025}
+\date{11th February 2025}
 
 \begin{document}
-% \let\mainmatterreal\mainmatter
-% \let\mainmatter\relax
 \frontmatter
 \cleardoublepage
 \thispagestyle{empty}
@@ -246,7 +247,7 @@
 \vskip 0cm plus 2fill
 {\bfseries\large Doctor of Philosophy \par}
 \vspace{3ex}
-{\bfseries\large 10th February 2025 \par}
+{\bfseries\large 11th February 2025 \par}
 \vspace{5ex}
 
 \centering%
@@ -257,11 +258,23 @@
 %
 {\bfseries\large University of Edinburgh \par}
 %
-\vspace{10ex}
-{\small Submitted in total fulfilment of the requirements
-of the degree of Doctor of Philosophy \par}
 }
+\newpage
 
+\null
+\vfill
+
+\flushleft
+
+
+\vspace{10ex}
+
+
+\vspace{10ex}
+{\small Thesis submitted in accordance with the requirements of the degree of Doctor of Philosophy. \par}
+
+
+% We're not ready for the main matter yet, so save it for later
 \let\mainmatterreal\mainmatter
 \let\mainmatter\relax
 \renewcommand*\contentsname{Table of contents}
@@ -301,8 +314,50 @@ line in index.qmd.
 
 \chapter{Introduction}\label{introduction}
 
-``There there,'' said Piglet. ``I'll bring you tea and honey until you
-do.'' (\citeproc{ref-Milne1926}{Milne and Shepard, 1926})
+``Well, I am a bear of very little brain, and I don't understand.''
+(\citeproc{ref-Milne1926}{Milne and Shepard, 1926})
+
+\lipsum[1-20]
+
+\bookmarksetup{startatroot}
+
+\chapter{Conceptual framework}\label{conceptual-framework}
+
+``A learning experience is one of those things that says, 'You know that
+thing you just did? Don't do that.'' (\citeproc{ref-Adams2002}{Adams,
+2002})
+
+\lipsum[21-40]
+
+\bookmarksetup{startatroot}
+
+\chapter{Method}\label{method}
+
+``If you aim to be something you are not, you will always fail. Aim to
+be you. Aim to look and act and think like you. Aim to be the truest
+version of you. Embrace that you-ness. Endorse it. Love it. Work hard at
+it.'' (\citeproc{ref-Haig2020}{Haig, 2020})
+
+\lipsum[41-60]
+
+\bookmarksetup{startatroot}
+
+\chapter{Discussion}\label{discussion}
+
+``Just because an animal is large, it doesn't mean he doesn't want
+kindness; however big Tigger seems to be, remember that he wants as much
+kindness as Roo.'' (\citeproc{ref-Milne1926}{Milne and Shepard, 1926})
+
+\lipsum[61-80]
+
+\bookmarksetup{startatroot}
+
+\chapter{Conclusion}\label{conclusion}
+
+``The longest way must have its close - the gloomiest night will wear on
+to a morning.'' (\citeproc{ref-Stowe1852}{Stowe, 1852})
+
+\lipsum[81-90]
 
 \bookmarksetup{startatroot}
 
@@ -316,9 +371,21 @@ do.'' (\citeproc{ref-Milne1926}{Milne and Shepard, 1926})
 
 \phantomsection\label{refs}
 \begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-Adams2002}
+Adams, Douglas. 2002. \emph{{The Salmon of Doubt}}. William Heinemann
+Ltd.
+
+\bibitem[\citeproctext]{ref-Haig2020}
+Haig, Matt. 2020. \emph{{The midnight library}}. Edinburgh: Canongate
+Books.
+
 \bibitem[\citeproctext]{ref-Milne1926}
 Milne, A. A., and E. H. Shepard. 1926. \emph{Winnie-the-{Pooh}}. Methuen
 \& Co.; E. P. Dutton.
+
+\bibitem[\citeproctext]{ref-Stowe1852}
+Stowe, Harriet Beecher. 1852. \emph{Uncle Tom's Cabin, or, Life Among
+the Lowly}. Boston, MA: John P. Jewett; Company.
 
 \end{CSLReferences}
 

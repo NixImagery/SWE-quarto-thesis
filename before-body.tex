@@ -1,5 +1,3 @@
-% \let\mainmatterreal\mainmatter
-% \let\mainmatter\relax
 $if(has-frontmatter)$
 \frontmatter
 $endif$
@@ -36,11 +34,35 @@ $if(it.department)$%
 $endif$%
 {\bfseries\large $it.name$ \par}
 $endfor$$endfor$%
-\vspace{10ex}
-{\small Submitted in total fulfilment of the requirements
-of the degree of Doctor of Philosophy \par}
 }
+\newpage
+
+\null
+\vfill
+
+\flushleft
+
+
+$if(supervisor)$
+{\small\bfseries Supervisors: \par}
+$for(supervisor)$
+{\small $supervisor.name$, $supervisor.affiliation$}\par
+$endfor$
+$endif$
+\vspace{10ex}
+
+$if(examiner)$
+{\small\bfseries Examiners: \par}
+$for(examiner)$
+{\small $examiner.name$, $examiner.affiliation$}\par
+$endfor$
 $endif$
 
+\vspace{10ex}
+{\small Thesis submitted in accordance with the requirements of the degree of Doctor of Philosophy. \par}
+
+$endif$
+
+% We're not ready for the main matter yet, so save it for later
 \let\mainmatterreal\mainmatter
 \let\mainmatter\relax
